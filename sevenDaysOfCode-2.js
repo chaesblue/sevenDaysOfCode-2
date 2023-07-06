@@ -1,4 +1,8 @@
-let nome = prompt ("Digite seu nome:");
+const botão = document.querySelector('.voltarAoCadastro')
+
+botão.onclick =function() {
+
+ let nome = prompt ("Digite seu nome:");
  let idade = prompt ("Digite sua idade em numero:");
  let curso = prompt ("Digite qual linguagem de programação deseja aprender:");
 let msgnBoasvindas = `olá ${nome}! bem vindo ao curso de ${curso} 
@@ -16,4 +20,5 @@ alert (msgnBoasvindas)
 }else{
 
     alert(msgnBoasvindas2)
+}
 }
